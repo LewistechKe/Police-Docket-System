@@ -1,14 +1,8 @@
-import React from 'react'
-import './App.css'
+import "./App.css";
+import Layout from './components/Layout/Layout';
 
-const App = () =>  {
-  return (
-    <div className='App'>
-      <p>
-        Hello am starting the dev process
-        </p>
-      </div>
-  )
+function App() {
+  return <Layout />;
 }
 
-export default App
+export default App;
