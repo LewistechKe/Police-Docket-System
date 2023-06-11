@@ -2,9 +2,9 @@
 
 
 :root {
-  --primary-color: #181b3a;
+  --primary-color: #000080;
   --secondary-color: #01d293;
-  --body-bg: #0b0c28;
+  --body-bg: #bebec4;
   --card-01-bg: linear-gradient (#ef621c, #e1424e);
   --card-01-bg: linear-gradient (#ef621c, #e1424e);
   --card-01-bg: #725CFF;
@@ -15,4 +15,17 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
+  background: var(--body-bg);
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.main_layout {
+  margin-left: 270px;
 }

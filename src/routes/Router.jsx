@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 import Dashboard from '../pages/Dashboard';
 import AddCase from '../pages/AddCase';
@@ -10,7 +10,6 @@ import Settings from '../pages/Settings';
 
 function Router() {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/dashboard" />} />
         <Route path="/dashboard" element={<Dashboard />} />
@@ -20,7 +19,6 @@ function Router() {
         <Route path="/administrators" element={<Administrators />} />
         <Route path="/settings" element={<Settings />} />
       </Routes>
-    </BrowserRouter>
   );
 }
 

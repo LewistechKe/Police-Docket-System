@@ -1555,6 +1555,11 @@ regexp.prototype.flags@^1.4.3:
     define-properties "^1.2.0"
     functions-have-names "^1.2.3"
 
+remixicon@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/remixicon/-/remixicon-3.3.0.tgz#2d610706a98a4bed093e9d5c2a28551632b11c68"
+  integrity sha512-iNeRbwVgd8Ef467IjMd/+joFWSBOYfqsLtxtSzsS8fWn75a1H7sgGu5uWE4c3NLjP2C1giFlx8gw63qZd96yJQ==
+
 resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
