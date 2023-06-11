@@ -5,10 +5,10 @@
   --primary-color: #000080;
   --secondary-color: #01d293;
   --body-bg: #bebec4;
-  --card-01-bg: linear-gradient (#ef621c, #e1424e);
-  --card-01-bg: linear-gradient (#ef621c, #e1424e);
-  --card-01-bg: #725CFF;
-  --card-01-bg: #2884FF;
+  --card-01-bg: #008080;
+  --card-02-bg: #0d0080;
+  --card-03-bg: #725CFF;
+  --card-04-bg: #2884FF;
   --heading-color: #fff;
   --small-text-color: #808191;
 }
