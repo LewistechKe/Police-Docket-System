@@ -1,5 +1,5 @@
 .sidebar{
-    width: 260px;
+    width: 200px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -68,6 +68,7 @@
 }
 
 .nav_list {
+    padding-left: 0px;
     display: flex;
     row-gap: 1.3rem;
     flex-direction: column;
@@ -80,7 +81,7 @@
 
 .nav_active {
     color: white;
-    background: #04042c;
+    background: #0411cf;
     padding: 6px;
     border-radius: 5px;
 }
