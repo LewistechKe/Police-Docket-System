@@ -11,7 +11,7 @@ const SingleCard = (props) => {
   </div>
 
   <span className='card_icon'>
-    <i class={icon}></i>
+    <i className={icon}></i>
   </span>
 </div>
 }
