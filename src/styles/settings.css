@@ -1,0 +1,87 @@
+.settings{
+    margin-top: 100px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+}
+
+.settings_wrapper {
+    padding: 5px;
+    border-radius: 5px;
+    background: var(--primary-color);
+}
+
+.settings_title {
+    color: var(--heading-color);
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.settings_top {
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.setting_btn {
+    border: none;
+    padding: 7px 25px;
+    background: transparent;
+    border-radius: 5px;
+    color: var(--heading-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.active_btn{
+    background: rgba(8, 118, 207, 0.637);
+}
+
+.profile_title {
+    color: var(--heading-color);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.profile_desc{
+    color: var(--small-text-color);
+    margin-bottom: 2rem;
+}
+
+label{
+    color: var(--heading-color);
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.form_group div {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.form_group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+.form_group div input{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid rgba(8, 118, 207, 0.637);
+    color: var(--heading-color);
+    font-size: 1rem;
+}
+
+.form_group div input::placeholder{
+    color: var(--small-text-color);
+    font-size: .9rem;
+}
+
+.form_group div input:focus{
+    outline: none;
+}
